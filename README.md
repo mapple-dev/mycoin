@@ -41,5 +41,9 @@ Scrypt Proof of Work
 	make -f makefile.unix USE_UPNP=-
 	./mycoind 
 
+### The Wallet-QT
 
+	qmake
+	make
+	./mycoin-qt !!!!! Dont run mycoind and mycoin-qt at same time, it dont work !!!!!
 
