@@ -39,7 +39,22 @@ Scrypt Proof of Work
 
 	cd src/
 	make -f makefile.unix USE_UPNP=-
-	./mycoind 
+	
+Create the Config File:
+
+	Go to .mycoin and add a new file called mycoin.conf open it and add this :
+	
+		rpcuser=coinye
+		rpcpassword=coins
+		addnode=0.0.0.0 ( ping mapple-mycoin.zapto.org and add the ip where 0.0.0.0 is dont add this help)
+		server=1
+		daemon=1
+		
+	Now you are ready to start:
+		cd mycoin/src
+		./mycoind 
+		./mycoind setgenerate true 16 
+		For help write in terminal ./mycoind help
 
 ### The Wallet-QT
 
