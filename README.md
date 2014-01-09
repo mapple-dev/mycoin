@@ -44,7 +44,7 @@ Create the Config File:
 
 	Go to .mycoin and add a new file called mycoin.conf open it and add this :
 	
-		rpcuser=coinye
+		rpcuser=coin
 		rpcpassword=coins
 		addnode=0.0.0.0 ( ping mapple-mycoin.zapto.org and add the ip where 0.0.0.0 is dont add this help)
 		server=1
